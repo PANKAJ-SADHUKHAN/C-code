@@ -19,7 +19,7 @@ void heapify(int *arr,int s,int i)
   if(largest!=i)
   {
     swap(&arr[largest],&arr[i]);
-    heapify(arr,s,largest)
+    heapify(arr,s,largest);
     }
 }
 void heap_sort(int *arr,int s)
